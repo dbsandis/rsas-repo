@@ -1,0 +1,5 @@
+# BACKUP
+docker exec rsas_db_1 /usr/bin/mysqldump -u --host=db --user=root --password=xxxxxxxxxx drupal >> backup.sql
+
+# RESTORE
+cat backup.sql | docker exec -i rsas_db_1 /usr/bin/mysql --host=db --user=root --password=xxxxxxxxxx drupal
