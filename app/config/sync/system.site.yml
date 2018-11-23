@@ -1,0 +1,14 @@
+uuid: 9dc1b61f-2ecb-4098-b2b7-15d9b6f86ec7
+name: 'Residents Services Administration System'
+mail: dbsandis@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
